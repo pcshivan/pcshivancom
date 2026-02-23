@@ -1,0 +1,6 @@
+name = "pcshivan" # A unique name for your Cloudflare Worker
+main = "worker/index.js" # Path to your Worker script (see next step)
+compatibility_date = "2025-07-11" # Use today's date or a recent date
+
+[site]
+bucket = "./build" # This tells Wrangler to deploy the contents of your React build directory
